@@ -5,7 +5,6 @@
 }
 
 .container{
-    border: 1px solid black; 
     text-align: center;
     padding: 20px;
 }
@@ -37,4 +36,11 @@ h1{
 }
 input{
     padding-left: 12px;
+}
+
+#reset{
+     padding: 10px 15px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #00ffff;
 }

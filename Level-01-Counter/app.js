@@ -1,14 +1,22 @@
 let countEl = document.querySelector("#count");
-let Add = document.querySelector("#Add-btn");
-let Sub = document.querySelector("#Sub-btn");
+let add = document.querySelector("#Add-btn");
+let sub = document.querySelector("#Sub-btn");
+let changeValue = document.querySelector("#Change-value");
+let resetBtn = document.querySelector("#reset");
 
-Add.addEventListener("click" , () => {
+add.addEventListener("click" , () => {
     let countValue = parseInt(countEl.innerText);
-    countEl.innerText = countValue + 1
+    let changeOn = parseInt(changeValue.value)
+    countEl.innerText = countValue + changeOn
     
 })
-Sub.addEventListener("click" , () => {
+sub.addEventListener("click" , () => {
    
      let countValue = parseInt(countEl.innerText);
-    countEl.innerText = countValue - 1
+    let changeOn = parseInt(changeValue.value)
+    countEl.innerText = countValue - changeOn
+})
+
+resetBtn.addEventListener('click' , () => {
+    countEl.innerHTML = 0
 })
