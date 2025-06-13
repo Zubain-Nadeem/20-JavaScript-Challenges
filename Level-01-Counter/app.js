@@ -3,10 +3,12 @@ let Add = document.querySelector("#Add-btn");
 let Sub = document.querySelector("#Sub-btn");
 
 Add.addEventListener("click" , () => {
-    console.log("Add button");
+    let countValue = parseInt(countEl.innerText);
+    countEl.innerText = countValue + 1
     
 })
 Sub.addEventListener("click" , () => {
-    console.log("sub button");
-    
+   
+     let countValue = parseInt(countEl.innerText);
+    countEl.innerText = countValue - 1
 })
