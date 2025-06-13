@@ -1,46 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-    text-align: center;
-    padding: 20px;
+.container {
+  text-align: center;
+  padding: 20px;
 }
 
-h1{
-    font-size: 40px;
-    padding: 10px;
+h1 {
+  font-size: 40px;
+  padding: 10px;
 }
 
-#Add-btn{
-    padding: 10px 15px;
-    font-size: 20px;
-    background-color: #00ffff;
-    
+#Add-btn {
+  padding: 10px 15px;
+  font-size: 20px;
+  background-color: #00ffff;
 }
-#Sub-btn{
-    padding: 10px 15px;
-    font-size: 20px;
-    background-color: #00ffff;
-    
+#Sub-btn {
+  padding: 10px 15px;
+  font-size: 20px;
+  background-color: #00ffff;
 }
 
-.in-de{
-    padding: 20px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.in-de {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
-input{
-    padding-left: 12px;
+input {
+  padding-left: 12px;
 }
 
-#reset{
-     padding: 10px 15px;
-    font-size: 17px;
-    border-radius: 10px;
-    background-color: #00ffff;
+#reset {
+  padding: 10px 15px;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: #00ffff;
 }
