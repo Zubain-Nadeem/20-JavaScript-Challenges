@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    border: 1px solid black; 
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 34px;
+    padding: 10px;
+}
+
+#Add-btn{
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #00ffff;
+    
+}
+#Sub-btn{
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #00ffff;
+    
+}
