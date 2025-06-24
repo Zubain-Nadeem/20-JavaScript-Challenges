@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  border: 1px solid black;
+  text-align: center;
+}
+
+input {
+  width: 94%;
+  padding: 10px;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.transform {
+  border: 2px solid brown;
+  width: 94%;
+  text-align: left;
+  margin: auto;
+}
+
+.transform div {
+  padding: 20px;
+  position: relative;
+  font-size: 17px;
+  background-color: #f5f5dc;
+  border: 2px solid rgb(38, 127, 13);
+  margin: 10px 0;
+}
+.transform label {
+  border: 1px solid black;
+  font-size: 13px;
+  position: absolute;
+  top: -0.75rem;
+  left: 1rem;
+  padding: 4px;
+  background: #000;
+  color: #fff;
+}
+.transform span{
+    word-break: break-all;
+}

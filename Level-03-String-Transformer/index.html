@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>String Transformer</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <input
+          type="text"
+          placeholder="enter the text with spaces "
+          autocomplete="off"
+          value="this is normal sentence to transform"
+          id="user-input"
+        />
+      </form>
+
+      <div class="transform">
+        <div><label>Lower Case</label> <span id="LowerCase"></span></div>
+        <div><label>Upper Case</label> <span id="UpperCase"></span></div>
+        <div><label>Camel Case</label> <span id="CamelCase"></span></div>
+        <div><label>Pascal Case</label> <span id="PascalCase"></span></div>
+        <div><label>Snake Case</label> <span id="SnakeCase"></span></div>
+        <div><label>Kebab Case</label> <span id="KebabCase"></span></div>
+        <div><label>Trim</label> <span id="Trim"></span></div>
+      </div>
+    </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
