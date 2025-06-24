@@ -11,18 +11,20 @@ let trimEl = document.querySelector("#Trim");
 function transform({ text = userInput.value.trim() }) {
   const camelCase = text
     .toLowerCase()
-    .split(' ')
-    .reduce((a,b) => a + b[0]?.toUpperCase() + b.substring(1)?.toLowerCase());
+    .split(" ") 
+    .reduce((a, b) => a + b[0]?.toUpperCase() + b.substring(1)?.toLowerCase());
 
   lowerCaseEl.innerText = text.toLowerCase();
   upperCaseEl.innerText = text.toUpperCase();
   CamelCaseEl.innerText = camelCase;
-  pascalCaseEl.innerText = camelCase ? camelCase[0]?.toUpperCase() + camelCase.substring(1) : '';
+  pascalCaseEl.innerText = camelCase
+    ? camelCase[0]?.toUpperCase() + camelCase.substring(1)
+    : "";
   snakeCaseEl.innerText = text.split(" ").join("_");
   kebabCaseEl.innerText = text.split(" ").join("-");
   trimEl.innerText = text.split(" ").join("");
 }
 
-userInput.addEventListener("input" ,  )
+userInput.addEventListener("input", transform);
 
 transform({});
