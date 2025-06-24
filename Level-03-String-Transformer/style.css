@@ -4,7 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-  border: 1px solid black;
+    padding: 20px;
   text-align: center;
 }
 
@@ -12,11 +12,10 @@ input {
   width: 94%;
   padding: 10px;
   font-size: 17px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .transform {
-  border: 2px solid brown;
   width: 94%;
   text-align: left;
   margin: auto;
@@ -27,11 +26,9 @@ input {
   position: relative;
   font-size: 17px;
   background-color: #f5f5dc;
-  border: 2px solid rgb(38, 127, 13);
-  margin: 10px 0;
+  margin: 15px 0;
 }
 .transform label {
-  border: 1px solid black;
   font-size: 13px;
   position: absolute;
   top: -0.75rem;
@@ -41,5 +38,5 @@ input {
   color: #fff;
 }
 .transform span{
-    word-break: break-all;
+    word-break: break-all   ;
 }
