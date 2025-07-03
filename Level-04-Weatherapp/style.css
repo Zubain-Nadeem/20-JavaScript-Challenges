@@ -99,3 +99,99 @@ body {
 .weather {
   display: none;
 }
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .container {
+    width: 45%;
+  }
+  .city {
+    font-size: 42px;
+  }
+  .temp {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 60%;
+    padding: 12px;
+  }
+  .city {
+    font-size: 36px;
+  }
+  .temp {
+    font-size: 28px;
+  }
+  .col img {
+    width: 40px;
+  }
+  .col p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    align-items: flex-start;
+    padding-top: 30px;
+    height: auto;
+  }
+  .container {
+    width: 95%;
+    min-width: unset;
+    padding: 8px;
+    border-radius: 12px;
+  }
+  .search input {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  .search button {
+    width: 40px;
+    height: 40px;
+  }
+  .search-icon {
+    height: 22px;
+  }
+  .city {
+    font-size: 28px;
+  }
+  .temp {
+    font-size: 22px;
+  }
+  .sub-details {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 18px;
+  }
+  .col {
+    justify-content: flex-start;
+  }
+  .col img {
+    width: 28px;
+  }
+  .col p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 4px;
+    border-radius: 8px;
+  }
+  .city {
+    font-size: 20px;
+  }
+  .temp {
+    font-size: 16px;
+  }
+  .col img {
+    width: 20px;
+  }
+  .col p {
+    font-size: 12px;
+  }
+}
